@@ -5,8 +5,6 @@
 
 /* mobile */
 @media screen and (max-width: 730px){
-    
-    
    .header_content_nav{
     display: none;
    }
@@ -56,6 +54,7 @@
    .hearder_content_bars{
     display: block!important;
    }
+  
 }
 /* tablet */
 @media screen and (min-width:740px)and (max-width: 1024px){
@@ -75,11 +74,9 @@
     background-color:#f4f4f4;
     transform: translateX(100%);
     transition: transform linear 0.3s;
-    /* display: none; */
 }
 .list_mobile{
     margin-top: 24px;
-    
 }
 .item_mobile{
     text-decoration: none;
